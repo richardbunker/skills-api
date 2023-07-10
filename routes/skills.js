@@ -6,7 +6,7 @@ const router = express.Router();
 
 /**
  * GET /skills/
- * Returns a poster found in local storage or throws an error if not found.
+ * Returns a list of skills from the db.
  */
 router.get("/", ensureJwtTokenIsValid, ensureNoQueryParams, function (req, res) {
   fs.readFile("db/skills.json", "utf-8", (err, data) => {
