@@ -10,37 +10,3 @@ The API endpoint to retrieve the list of full stack web developer skills is:
 ## Authentication
 
 This API requires authentication to access skills.
-
-## Response Format
-
-The API response will be in the following format:
-
-```json
-"languages": [
-				{
-					"name": "JavaScript",
-					"proficiency": "Advanced"
-				},
-				{
-					"name": "TypeScript",
-					"proficiency": "Intermediate"
-				},
-				{
-					"name": "PHP",
-					"proficiency": "Advanced"
-				},
-				{
-					"name": "Python",
-					"proficiency": "Basic"
-				},
-				{
-					"name": "C#",
-					"proficiency": "Basic"
-				},
-				{
-					"name": "Java",
-					"proficiency": "Basic"
-				}
-			]
-]
-```
