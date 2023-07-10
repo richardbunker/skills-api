@@ -6,6 +6,8 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
+const swaggerUI = require("swagger-ui-express");
+const swaggerDocument = require("./docs/openapi.json");
 
 const authRouter = require("./routes/auth");
 const skillsRouter = require("./routes/skills");
@@ -26,6 +28,7 @@ app.use(helmet());
 
 app.use("/api/auth", authRouter);
 app.use("/api/skills", skillsRouter);
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
