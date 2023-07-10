@@ -9,7 +9,7 @@ const router = express.Router();
  * Returns a poster found in local storage or throws an error if not found.
  */
 router.get("/", ensureJwtTokenIsValid, ensureNoQueryParams, function (req, res) {
-  fs.readFile(process.env.DB_FILE_PATH, "utf-8", (err, data) => {
+  fs.readFile("db/skills.json", "utf-8", (err, data) => {
     if (err) {
       return abort(500, res, "Sorry! Looks like we have a database error.");
     }
