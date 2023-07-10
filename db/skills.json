@@ -2,15 +2,68 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "description": "Proficiency in at least one server-side language such as JavaScript (Node.js), Python, Ruby, or Java. Familiarity with front-end languages like HTML, CSS, and JavaScript is also crucial."
+      "description": "I have experience and exposure to different programming languages that help to build software for the modern web.",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "TypeScript",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "PHP",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "Python",
+          "proficiency": "Basic"
+        },
+        {
+          "name": "C#",
+          "proficiency": "Basic"
+        },
+        {
+          "name": "Java",
+          "proficiency": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Services",
+      "description": "Obtaining speed and efficency through battle-tested web development frameworks to build amazing software.",
+      "frameworks": [
+        {
+          "name": "Laravel",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "Node.js",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "Express.js",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "Next.js",
+          "proficiency": "Intermediate"
+        }
+      ]
     },
     {
       "name": "Web Development",
-      "description": "Understanding of web development concepts including HTTP protocols, RESTful APIs, and client-server architecture. Experience with frameworks such as React, Angular, or Vue.js for front-end development is valuable."
+      "description": "Understanding of web development concepts including HTTP protocols, RESTful APIs, and client-server architecture."
     },
     {
       "name": "Databases",
-      "description": "Knowledge of database management systems like MySQL, PostgreSQL, or MongoDB. Understanding of database modeling, querying, and optimization techniques."
+      "description": "Knowledge of database management systems and understanding of database modeling, querying, and optimization techniques.",
+      "databases": [
+        { "name": "MySQL", "proficiency": "Intermediate" },
+        { "name": "noSQL", "proficiency": "Basic" },
+        { "name": "SQLite", "proficiency": "Basic" }
+      ]
     },
     {
       "name": "Server-Side Development",
@@ -34,7 +87,7 @@
     },
     {
       "name": "Deployment and DevOps",
-      "description": "Experience with deploying applications to hosting platforms (e.g., AWS, Heroku, Firebase) and understanding of basic DevOps concepts, including continuous integration and deployment (CI/CD) pipelines."
+      "description": "Experience with deploying applications to hosting platforms (e.g., AWS, Laravel Forge, Netlify, Render) and understanding of basic DevOps concepts, including continuous integration and deployment (CI/CD) pipelines."
     },
     {
       "name": "Problem-Solving",
